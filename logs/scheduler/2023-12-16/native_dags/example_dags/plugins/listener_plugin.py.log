@@ -1238,3 +1238,8 @@
 [2023-12-16T15:20:47.894+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:20:47.894+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2023-12-16T15:20:47.899+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2023-12-16T15:20:47.907+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2023-12-16T15:21:40.052+0500] {processor.py:157} INFO - Started process (PID=44140) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2023-12-16T15:21:40.057+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2023-12-16T15:21:40.058+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:21:40.058+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2023-12-16T15:21:40.062+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2023-12-16T15:21:40.073+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.025 seconds
