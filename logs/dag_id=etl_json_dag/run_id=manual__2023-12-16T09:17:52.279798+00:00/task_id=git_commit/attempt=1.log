@@ -10,3 +10,17 @@
 [2023-12-16T14:18:05.995+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
 [2023-12-16T14:18:05.996+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/sourav/airflow && git add . && git commit -m "Update data file"']
 [2023-12-16T14:18:06.000+0500] {subprocess.py:86} INFO - Output:
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO - [new 958bdf8] Update data file
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO -  61 files changed, 1430 insertions(+), 2 deletions(-)
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T09:15:09.134981+00:00/task_id=dvc_push/attempt=1.log
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T09:15:09.134981+00:00/task_id=git_push/attempt=1.log
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T09:17:52.279798+00:00/task_id=dvc_add/attempt=1.log
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T09:17:52.279798+00:00/task_id=extract/attempt=1.log
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T09:17:52.279798+00:00/task_id=git_commit/attempt=1.log
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T09:17:52.279798+00:00/task_id=load/attempt=1.log
+[2023-12-16T14:18:06.652+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T09:17:52.279798+00:00/task_id=transform/attempt=1.log
+[2023-12-16T14:18:06.653+0500] {subprocess.py:93} INFO -  create mode 100644 remote/files/md5/9b/4e2212c65c588235bbd97afae89d6a
+[2023-12-16T14:18:06.653+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-16T14:18:06.703+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_json_dag, task_id=git_commit, execution_date=20231216T091752, start_date=20231216T091805, end_date=20231216T091806
+[2023-12-16T14:18:06.750+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T14:18:06.808+0500] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

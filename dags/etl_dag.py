@@ -92,9 +92,10 @@ dvc_push = BashOperator(
 
 git_push = BashOperator(
     task_id='git_push',
-    bash_command='cd /home/sourav/airflow && git push origin new',
+    bash_command='cd /home/sourav/airflow && git push',
     dag=dag,
 )
+
 
 # Set task dependencies
 
