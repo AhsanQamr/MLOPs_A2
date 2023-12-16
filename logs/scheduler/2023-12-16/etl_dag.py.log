@@ -2526,3 +2526,87 @@ NameError: name 'dvc_commit' is not defined. Did you mean: 'git_commit'?
 [2023-12-16T14:31:43.227+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:31:43.227+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T14:31:43.245+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:31:43.245+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
 [2023-12-16T14:31:43.273+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.087 seconds
+[2023-12-16T14:32:15.938+0500] {processor.py:157} INFO - Started process (PID=28559) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:32:15.951+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:32:15.953+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:32:15.952+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:32:15.963+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:32:15.985+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:32:15.984+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:32:16.013+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:32:16.013+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:32:16.046+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.112 seconds
+[2023-12-16T14:32:50.868+0500] {processor.py:157} INFO - Started process (PID=28785) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:32:50.874+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:32:50.875+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:32:50.875+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:32:50.883+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:32:50.901+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:32:50.901+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:32:50.915+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:32:50.915+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:32:50.956+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.092 seconds
+[2023-12-16T14:33:24.871+0500] {processor.py:157} INFO - Started process (PID=29001) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:33:24.875+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:33:24.876+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:33:24.876+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:33:24.883+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:33:24.900+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:33:24.899+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:33:24.918+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:33:24.918+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:33:24.946+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.077 seconds
+[2023-12-16T14:34:01.325+0500] {processor.py:157} INFO - Started process (PID=29139) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:34:01.334+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:34:01.335+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:34:01.334+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:34:01.342+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:34:01.357+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:34:01.357+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:34:01.373+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:34:01.373+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:34:01.397+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.075 seconds
+[2023-12-16T14:34:35.143+0500] {processor.py:157} INFO - Started process (PID=29304) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:34:35.153+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:34:35.154+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:34:35.154+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:34:35.161+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:34:35.175+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:34:35.175+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:34:35.191+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:34:35.191+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:34:35.214+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.074 seconds
+[2023-12-16T14:35:07.399+0500] {processor.py:157} INFO - Started process (PID=29578) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:35:07.414+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:35:07.415+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:35:07.414+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:35:07.421+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:35:07.435+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:35:07.434+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:35:07.449+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:35:07.448+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:35:07.471+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.075 seconds
+[2023-12-16T14:35:53.482+0500] {processor.py:157} INFO - Started process (PID=29813) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:35:53.487+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:35:53.488+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:35:53.488+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:35:53.494+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:35:53.507+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:35:53.507+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:35:53.522+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:35:53.522+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:35:53.543+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.064 seconds
+[2023-12-16T14:36:24.593+0500] {processor.py:157} INFO - Started process (PID=29977) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:36:24.599+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:36:24.600+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:36:24.600+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:36:24.606+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:36:24.619+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:36:24.619+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:36:24.633+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:36:24.633+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:36:24.656+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.066 seconds
+[2023-12-16T14:36:58.069+0500] {processor.py:157} INFO - Started process (PID=30147) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:36:58.076+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:36:58.077+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:36:58.077+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:36:58.083+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:36:58.097+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:36:58.096+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:36:58.111+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:36:58.111+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:36:58.137+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.071 seconds
+[2023-12-16T14:37:30.699+0500] {processor.py:157} INFO - Started process (PID=30384) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:37:30.704+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:37:30.705+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:37:30.704+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:37:30.711+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:37:30.726+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:37:30.726+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:37:30.741+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:37:30.741+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:37:30.767+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.071 seconds
+[2023-12-16T14:38:02.970+0500] {processor.py:157} INFO - Started process (PID=30587) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:38:02.980+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:38:02.981+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:38:02.981+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:38:02.988+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:38:03.004+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:38:03.004+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:38:03.019+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:38:03.019+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:38:03.045+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.078 seconds
+[2023-12-16T14:38:38.960+0500] {processor.py:157} INFO - Started process (PID=30743) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:38:38.973+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:38:38.974+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:38:38.973+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:38:38.980+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:38:38.993+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:38:38.993+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:38:39.009+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:38:39.009+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:38:39.031+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.073 seconds
