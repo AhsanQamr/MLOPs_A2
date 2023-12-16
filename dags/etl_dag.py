@@ -3,6 +3,7 @@ from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
 import requests
 import json
+from airflow.operators.bash_operator import BashOperator
 
 # Define your extract, transform, and load functions
 
@@ -24,8 +25,8 @@ def transform_data(data):
 
 
 def load_data(data):
-    with open('transformed_data.json', 'w') as file:
-        file.write(data)  # Write the JSON string directly to a file
+    with open('/home/sourav/airflow/transformed_data.json', 'w') as file:
+        file.write(data)
 
 
 # Define default arguments for your DAG
@@ -68,6 +69,36 @@ load_task = PythonOperator(
     op_kwargs={'data': '{{ task_instance.xcom_pull(task_ids="transform") }}'},
     dag=dag,
 )
+
+# DVC and Git integration tasks
+
+dvc_add = BashOperator(
+    task_id='dvc_add',
+    bash_command='cd /home/sourav/airflow && dvc add transformed_data.json',
+    dag=dag,
+)
+
+git_commit = BashOperator(
+    task_id='git_commit',
+    bash_command='cd /home/sourav/airflow && git add . && git commit -m "Update data file"',
+    dag=dag,
+)
+
+dvc_push = BashOperator(
+    task_id='dvc_push',
+    bash_command='cd /home/sourav/airflow && dvc push',
+    dag=dag,
+)
+
+git_push = BashOperator(
+    task_id='git_push',
+    bash_command='cd /home/sourav/airflow && git push',
+    dag=dag,
+)
+
+# Set task dependencies
+
+extract_task >> transform_task >> load_task >> dvc_add >> git_commit >> dvc_push >> git_push
 
 # Set task dependencies
 
