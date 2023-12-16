@@ -1,0 +1,991 @@
+[2023-12-16T11:35:30.575+0500] {processor.py:157} INFO - Started process (PID=2827) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:35:30.578+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:35:30.585+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:35:30.580+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:35:30.603+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:35:30.771+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:35:30.771+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-16T11:35:30.799+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:35:30.798+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-16T11:35:30.811+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:35:30.810+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-16T11:35:30.811+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:35:30.811+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:35:30.821+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:35:30.821+0500] {dag.py:2963} INFO - Creating ORM DAG for latest_only
+[2023-12-16T11:35:30.828+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:35:30.828+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:35:30.828337+00:00, run_after=2023-12-16T06:35:30.828337+00:00
+[2023-12-16T11:35:30.870+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.319 seconds
+[2023-12-16T11:36:36.186+0500] {processor.py:157} INFO - Started process (PID=2908) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:36:36.197+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:36:36.198+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:36:36.197+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:36:36.205+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:36:36.217+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:36:36.217+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:36:36.234+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:36:36.234+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:36:36.234229+00:00, run_after=2023-12-16T06:36:36.234229+00:00
+[2023-12-16T11:36:36.260+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T11:37:23.217+0500] {processor.py:157} INFO - Started process (PID=2962) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:37:23.219+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:37:23.220+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:37:23.219+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:37:23.225+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:37:23.240+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:37:23.240+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:37:23.258+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:37:23.258+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:37:23.257958+00:00, run_after=2023-12-16T06:37:23.257958+00:00
+[2023-12-16T11:37:23.287+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds
+[2023-12-16T11:38:09.920+0500] {processor.py:157} INFO - Started process (PID=3010) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:38:09.935+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:38:09.936+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:38:09.936+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:38:09.944+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:38:09.965+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:38:09.965+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:38:09.989+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:38:09.989+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:38:09.988680+00:00, run_after=2023-12-16T06:38:09.988680+00:00
+[2023-12-16T11:38:10.021+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.105 seconds
+[2023-12-16T11:38:59.468+0500] {processor.py:157} INFO - Started process (PID=3093) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:38:59.475+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:38:59.475+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:38:59.475+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:38:59.480+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:38:59.493+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:38:59.493+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:38:59.509+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:38:59.508+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:38:59.508783+00:00, run_after=2023-12-16T06:38:59.508783+00:00
+[2023-12-16T11:38:59.533+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2023-12-16T11:39:47.602+0500] {processor.py:157} INFO - Started process (PID=3212) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:39:47.614+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:39:47.614+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:39:47.614+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:39:47.619+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:39:47.632+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:39:47.632+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:39:47.650+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:39:47.650+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:39:47.650114+00:00, run_after=2023-12-16T06:39:47.650114+00:00
+[2023-12-16T11:39:47.673+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2023-12-16T11:40:40.467+0500] {processor.py:157} INFO - Started process (PID=3288) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:40:40.481+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:40:40.482+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:40:40.482+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:40:40.488+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:40:40.500+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:40:40.499+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:40:40.516+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:40:40.516+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:40:40.516574+00:00, run_after=2023-12-16T06:40:40.516574+00:00
+[2023-12-16T11:40:40.540+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T11:41:34.203+0500] {processor.py:157} INFO - Started process (PID=3371) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:41:34.210+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:41:34.211+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:41:34.210+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:41:34.216+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:41:34.228+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:41:34.228+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:41:34.244+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:41:34.244+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:41:34.244093+00:00, run_after=2023-12-16T06:41:34.244093+00:00
+[2023-12-16T11:41:34.268+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2023-12-16T11:42:24.021+0500] {processor.py:157} INFO - Started process (PID=3422) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:42:24.036+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:42:24.036+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:42:24.036+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:42:24.042+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:42:24.054+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:42:24.054+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:42:24.070+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:42:24.070+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:42:24.070373+00:00, run_after=2023-12-16T06:42:24.070373+00:00
+[2023-12-16T11:42:24.094+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T11:43:12.300+0500] {processor.py:157} INFO - Started process (PID=3473) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:43:12.312+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:43:12.312+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:43:12.312+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:43:12.318+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:43:12.333+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:43:12.333+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:43:12.350+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:43:12.350+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:43:12.349724+00:00, run_after=2023-12-16T06:43:12.349724+00:00
+[2023-12-16T11:43:12.375+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-12-16T11:44:05.269+0500] {processor.py:157} INFO - Started process (PID=3527) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:44:05.273+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:44:05.274+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:44:05.273+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:44:05.279+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:44:05.293+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:44:05.293+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:44:05.310+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:44:05.310+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:44:05.310573+00:00, run_after=2023-12-16T06:44:05.310573+00:00
+[2023-12-16T11:44:05.334+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2023-12-16T11:44:50.803+0500] {processor.py:157} INFO - Started process (PID=3573) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:44:50.811+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:44:50.812+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:44:50.812+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:44:50.820+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:44:50.837+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:44:50.837+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:44:50.860+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:44:50.859+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:44:50.859568+00:00, run_after=2023-12-16T06:44:50.859568+00:00
+[2023-12-16T11:44:50.888+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-12-16T11:45:46.111+0500] {processor.py:157} INFO - Started process (PID=3626) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:45:46.118+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:45:46.121+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:45:46.120+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:45:46.126+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:45:46.149+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:45:46.149+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:45:46.175+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:45:46.175+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:45:46.175320+00:00, run_after=2023-12-16T06:45:46.175320+00:00
+[2023-12-16T11:45:46.212+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2023-12-16T11:46:42.417+0500] {processor.py:157} INFO - Started process (PID=3681) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:46:42.424+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:46:42.425+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:46:42.425+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:46:42.430+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:46:42.443+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:46:42.443+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:46:42.458+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:46:42.458+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:46:42.458209+00:00, run_after=2023-12-16T06:46:42.458209+00:00
+[2023-12-16T11:46:42.482+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.067 seconds
+[2023-12-16T11:47:35.774+0500] {processor.py:157} INFO - Started process (PID=3735) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:47:35.789+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:47:35.791+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:47:35.790+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:47:35.798+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:47:35.817+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:47:35.817+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:47:35.845+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:47:35.844+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:47:35.844705+00:00, run_after=2023-12-16T06:47:35.844705+00:00
+[2023-12-16T11:47:35.875+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2023-12-16T11:48:26.438+0500] {processor.py:157} INFO - Started process (PID=3792) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:48:26.455+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:48:26.456+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:48:26.455+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:48:26.468+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:48:26.492+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:48:26.492+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:48:26.519+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:48:26.519+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:48:26.519091+00:00, run_after=2023-12-16T06:48:26.519091+00:00
+[2023-12-16T11:48:26.551+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.128 seconds
+[2023-12-16T11:49:17.957+0500] {processor.py:157} INFO - Started process (PID=3845) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:49:17.963+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:49:17.963+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:49:17.963+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:49:17.971+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:49:17.987+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:49:17.986+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:49:18.009+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:49:18.008+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:49:18.008728+00:00, run_after=2023-12-16T06:49:18.008728+00:00
+[2023-12-16T11:49:18.035+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-12-16T11:50:10.358+0500] {processor.py:157} INFO - Started process (PID=3899) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:50:10.367+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:50:10.368+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:50:10.367+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:50:10.374+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:50:10.390+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:50:10.390+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:50:10.410+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:50:10.410+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:50:10.409768+00:00, run_after=2023-12-16T06:50:10.409768+00:00
+[2023-12-16T11:50:10.436+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-12-16T11:51:02.797+0500] {processor.py:157} INFO - Started process (PID=3954) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:51:02.802+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:51:02.803+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:51:02.803+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:51:02.812+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:51:02.830+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:51:02.830+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:51:02.854+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:51:02.854+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:51:02.853946+00:00, run_after=2023-12-16T06:51:02.853946+00:00
+[2023-12-16T11:51:02.887+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2023-12-16T11:51:59.865+0500] {processor.py:157} INFO - Started process (PID=4010) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:52:00.002+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:52:00.003+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:52:00.003+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:52:00.011+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:52:00.031+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:52:00.031+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:52:00.053+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:52:00.053+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:52:00.053011+00:00, run_after=2023-12-16T06:52:00.053011+00:00
+[2023-12-16T11:52:00.235+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.375 seconds
+[2023-12-16T11:52:54.914+0500] {processor.py:157} INFO - Started process (PID=4066) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:52:54.916+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:52:54.917+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:52:54.917+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:52:54.923+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:52:54.938+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:52:54.938+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:52:54.956+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:52:54.955+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:52:54.955653+00:00, run_after=2023-12-16T06:52:54.955653+00:00
+[2023-12-16T11:52:54.983+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds
+[2023-12-16T11:53:44.800+0500] {processor.py:157} INFO - Started process (PID=4118) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:53:44.801+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:53:44.802+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:53:44.802+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:53:44.808+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:53:44.823+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:53:44.822+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:53:44.861+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:53:44.860+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:53:44.860513+00:00, run_after=2023-12-16T06:53:44.860513+00:00
+[2023-12-16T11:53:44.916+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.119 seconds
+[2023-12-16T11:54:40.506+0500] {processor.py:157} INFO - Started process (PID=4176) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:54:40.523+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:54:40.524+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:54:40.524+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:54:40.530+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:54:40.548+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:54:40.548+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:54:40.568+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:54:40.568+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:54:40.567785+00:00, run_after=2023-12-16T06:54:40.567785+00:00
+[2023-12-16T11:54:40.595+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2023-12-16T11:55:36.936+0500] {processor.py:157} INFO - Started process (PID=4230) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:55:36.951+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:55:36.951+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:55:36.951+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:55:36.957+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:55:36.972+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:55:36.972+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:55:36.988+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:55:36.988+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:55:36.987940+00:00, run_after=2023-12-16T06:55:36.987940+00:00
+[2023-12-16T11:55:37.013+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-12-16T11:56:32.921+0500] {processor.py:157} INFO - Started process (PID=4285) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:56:32.923+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:56:32.923+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:56:32.923+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:56:32.929+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:56:32.942+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:56:32.942+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:56:32.958+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:56:32.958+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:56:32.958003+00:00, run_after=2023-12-16T06:56:32.958003+00:00
+[2023-12-16T11:56:32.980+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.062 seconds
+[2023-12-16T11:57:29.493+0500] {processor.py:157} INFO - Started process (PID=4342) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:57:29.502+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:57:29.503+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:57:29.502+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:57:29.508+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:57:29.529+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:57:29.528+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:57:29.551+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:57:29.551+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:57:29.550961+00:00, run_after=2023-12-16T06:57:29.550961+00:00
+[2023-12-16T11:57:29.587+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2023-12-16T11:58:19.519+0500] {processor.py:157} INFO - Started process (PID=4395) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:58:19.663+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:58:19.664+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:58:19.664+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:58:19.669+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:58:19.682+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:58:19.682+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:58:19.699+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:58:19.699+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:58:19.698955+00:00, run_after=2023-12-16T06:58:19.698955+00:00
+[2023-12-16T11:58:19.726+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.216 seconds
+[2023-12-16T11:59:15.059+0500] {processor.py:157} INFO - Started process (PID=4449) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:59:15.066+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T11:59:15.066+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:59:15.066+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:59:15.072+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T11:59:15.099+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:59:15.099+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T11:59:15.135+0500] {logging_mixin.py:154} INFO - [2023-12-16T11:59:15.134+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T02:59:15.134642+00:00, run_after=2023-12-16T06:59:15.134642+00:00
+[2023-12-16T11:59:15.179+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.123 seconds
+[2023-12-16T12:00:12.062+0500] {processor.py:157} INFO - Started process (PID=4505) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:00:12.073+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:00:12.074+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:00:12.073+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:00:12.079+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:00:12.093+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:00:12.093+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:00:12.111+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:00:12.111+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:00:12.111123+00:00, run_after=2023-12-16T07:00:12.111123+00:00
+[2023-12-16T12:00:12.136+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-12-16T12:01:05.787+0500] {processor.py:157} INFO - Started process (PID=4561) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:01:05.800+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:01:05.801+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:01:05.801+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:01:05.806+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:01:05.819+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:01:05.819+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:01:05.836+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:01:05.836+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:01:05.835964+00:00, run_after=2023-12-16T07:01:05.835964+00:00
+[2023-12-16T12:01:05.860+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T12:01:59.125+0500] {processor.py:157} INFO - Started process (PID=4615) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:01:59.126+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:01:59.127+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:01:59.126+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:01:59.134+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:01:59.153+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:01:59.152+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:01:59.173+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:01:59.173+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:01:59.172849+00:00, run_after=2023-12-16T07:01:59.172849+00:00
+[2023-12-16T12:01:59.205+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2023-12-16T12:02:40.495+0500] {processor.py:157} INFO - Started process (PID=4654) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:02:40.513+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:02:40.516+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:02:40.515+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:02:40.527+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:02:40.576+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:02:40.575+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:02:40.631+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:02:40.631+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:02:40.630416+00:00, run_after=2023-12-16T07:02:40.630416+00:00
+[2023-12-16T12:02:40.684+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.196 seconds
+[2023-12-16T12:03:22.102+0500] {processor.py:157} INFO - Started process (PID=4698) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:03:22.108+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:03:22.109+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:03:22.108+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:03:22.114+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:03:22.132+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:03:22.132+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:03:22.149+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:03:22.149+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:03:22.149261+00:00, run_after=2023-12-16T07:03:22.149261+00:00
+[2023-12-16T12:03:22.175+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T12:04:12.847+0500] {processor.py:157} INFO - Started process (PID=4750) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:04:12.851+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:04:12.852+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:04:12.852+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:04:12.857+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:04:12.870+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:04:12.870+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:04:12.885+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:04:12.885+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:04:12.885195+00:00, run_after=2023-12-16T07:04:12.885195+00:00
+[2023-12-16T12:04:12.910+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2023-12-16T12:05:05.055+0500] {processor.py:157} INFO - Started process (PID=4809) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:05:05.066+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:05:05.067+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:05:05.067+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:05:05.074+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:05:05.095+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:05:05.095+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:05:05.122+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:05:05.121+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:05:05.119679+00:00, run_after=2023-12-16T07:05:05.119679+00:00
+[2023-12-16T12:05:05.180+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.131 seconds
+[2023-12-16T12:06:02.116+0500] {processor.py:157} INFO - Started process (PID=4866) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:06:02.129+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:06:02.130+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:06:02.130+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:06:02.136+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:06:02.151+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:06:02.151+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:06:02.167+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:06:02.166+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:06:02.166632+00:00, run_after=2023-12-16T07:06:02.166632+00:00
+[2023-12-16T12:06:02.189+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T12:06:52.848+0500] {processor.py:157} INFO - Started process (PID=4921) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:06:52.851+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:06:52.852+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:06:52.852+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:06:52.866+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:06:52.900+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:06:52.899+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:06:52.939+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:06:52.939+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:06:52.938986+00:00, run_after=2023-12-16T07:06:52.938986+00:00
+[2023-12-16T12:06:53.006+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.170 seconds
+[2023-12-16T12:07:34.390+0500] {processor.py:157} INFO - Started process (PID=4961) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:07:34.394+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:07:34.394+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:07:34.394+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:07:34.400+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:07:34.415+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:07:34.415+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:07:34.433+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:07:34.433+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:07:34.433503+00:00, run_after=2023-12-16T07:07:34.433503+00:00
+[2023-12-16T12:07:34.462+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-12-16T12:08:26.063+0500] {processor.py:157} INFO - Started process (PID=5016) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:08:26.066+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:08:26.066+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:08:26.066+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:08:26.072+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:08:26.092+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:08:26.092+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:08:26.111+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:08:26.110+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:08:26.110680+00:00, run_after=2023-12-16T07:08:26.110680+00:00
+[2023-12-16T12:08:26.136+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-12-16T12:09:19.238+0500] {processor.py:157} INFO - Started process (PID=5069) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:09:19.246+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:09:19.249+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:09:19.248+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:09:19.259+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:09:19.278+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:09:19.277+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:09:19.305+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:09:19.305+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:09:19.305028+00:00, run_after=2023-12-16T07:09:19.305028+00:00
+[2023-12-16T12:09:19.364+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.128 seconds
+[2023-12-16T12:09:58.780+0500] {processor.py:157} INFO - Started process (PID=5111) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:09:58.790+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:09:58.790+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:09:58.790+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:09:58.796+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:09:58.809+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:09:58.808+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:09:58.824+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:09:58.823+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:09:58.823788+00:00, run_after=2023-12-16T07:09:58.823788+00:00
+[2023-12-16T12:09:58.852+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2023-12-16T12:10:48.361+0500] {processor.py:157} INFO - Started process (PID=5162) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:10:48.374+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:10:48.375+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:10:48.375+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:10:48.382+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:10:48.409+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:10:48.409+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:10:48.428+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:10:48.427+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:10:48.427744+00:00, run_after=2023-12-16T07:10:48.427744+00:00
+[2023-12-16T12:10:48.457+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2023-12-16T12:11:39.548+0500] {processor.py:157} INFO - Started process (PID=5217) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:11:39.695+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:11:39.697+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:11:39.696+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:11:39.703+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:11:39.721+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:11:39.721+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:11:39.741+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:11:39.741+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:11:39.741067+00:00, run_after=2023-12-16T07:11:39.741067+00:00
+[2023-12-16T12:11:39.910+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.366 seconds
+[2023-12-16T12:12:19.643+0500] {processor.py:157} INFO - Started process (PID=5263) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:12:19.652+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:12:19.653+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:12:19.653+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:12:19.658+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:12:19.672+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:12:19.672+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:12:19.690+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:12:19.690+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:12:19.690257+00:00, run_after=2023-12-16T07:12:19.690257+00:00
+[2023-12-16T12:12:19.715+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T12:13:28.258+0500] {processor.py:157} INFO - Started process (PID=5325) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:13:28.399+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:13:28.400+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:13:28.399+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:13:28.405+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:13:28.418+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:13:28.418+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:13:28.433+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:13:28.433+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:13:28.433333+00:00, run_after=2023-12-16T07:13:28.433333+00:00
+[2023-12-16T12:13:28.458+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.203 seconds
+[2023-12-16T12:14:21.092+0500] {processor.py:157} INFO - Started process (PID=5381) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:14:21.096+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:14:21.097+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:14:21.096+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:14:21.104+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:14:21.120+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:14:21.120+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:14:21.141+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:14:21.141+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:14:21.141319+00:00, run_after=2023-12-16T07:14:21.141319+00:00
+[2023-12-16T12:14:21.171+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-12-16T12:15:01.747+0500] {processor.py:157} INFO - Started process (PID=5427) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:15:01.751+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:15:01.751+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:15:01.751+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:15:01.759+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:15:01.775+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:15:01.775+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:15:01.794+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:15:01.794+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:15:01.793886+00:00, run_after=2023-12-16T07:15:01.793886+00:00
+[2023-12-16T12:15:01.820+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T12:15:45.813+0500] {processor.py:157} INFO - Started process (PID=5468) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:15:45.822+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:15:45.823+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:15:45.823+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:15:45.833+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:15:45.855+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:15:45.855+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:15:45.886+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:15:45.886+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:15:45.886198+00:00, run_after=2023-12-16T07:15:45.886198+00:00
+[2023-12-16T12:15:45.950+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.141 seconds
+[2023-12-16T12:16:37.312+0500] {processor.py:157} INFO - Started process (PID=5527) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:16:37.316+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:16:37.317+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:16:37.317+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:16:37.323+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:16:37.337+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:16:37.337+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:16:37.354+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:16:37.354+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:16:37.354128+00:00, run_after=2023-12-16T07:16:37.354128+00:00
+[2023-12-16T12:16:37.377+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2023-12-16T12:17:33.047+0500] {processor.py:157} INFO - Started process (PID=5591) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:17:33.058+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:17:33.059+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:17:33.059+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:17:33.065+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:17:33.079+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:17:33.079+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:17:33.098+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:17:33.097+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:17:33.097750+00:00, run_after=2023-12-16T07:17:33.097750+00:00
+[2023-12-16T12:17:33.126+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2023-12-16T12:18:16.788+0500] {processor.py:157} INFO - Started process (PID=5632) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:18:16.794+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:18:16.796+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:18:16.795+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:18:16.817+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:18:16.860+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:18:16.860+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:18:16.906+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:18:16.905+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:18:16.902249+00:00, run_after=2023-12-16T07:18:16.902249+00:00
+[2023-12-16T12:18:16.969+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.188 seconds
+[2023-12-16T12:19:02.277+0500] {processor.py:157} INFO - Started process (PID=5675) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:19:02.286+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:19:02.287+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:19:02.287+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:19:02.296+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:19:02.317+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:19:02.317+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:19:02.340+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:19:02.339+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:19:02.339415+00:00, run_after=2023-12-16T07:19:02.339415+00:00
+[2023-12-16T12:19:02.366+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2023-12-16T12:19:54.131+0500] {processor.py:157} INFO - Started process (PID=5730) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:19:54.144+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:19:54.146+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:19:54.145+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:19:54.151+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:19:54.171+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:19:54.171+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:19:54.200+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:19:54.200+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:19:54.200005+00:00, run_after=2023-12-16T07:19:54.200005+00:00
+[2023-12-16T12:19:54.235+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.110 seconds
+[2023-12-16T12:20:43.800+0500] {processor.py:157} INFO - Started process (PID=5790) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:20:43.803+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:20:43.804+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:20:43.803+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:20:43.808+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:20:43.823+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:20:43.823+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:20:43.840+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:20:43.840+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:20:43.840081+00:00, run_after=2023-12-16T07:20:43.840081+00:00
+[2023-12-16T12:20:43.866+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-12-16T12:21:35.779+0500] {processor.py:157} INFO - Started process (PID=5848) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:21:35.785+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:21:35.786+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:21:35.785+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:21:35.791+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:21:35.810+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:21:35.810+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:21:35.831+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:21:35.830+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:21:35.830519+00:00, run_after=2023-12-16T07:21:35.830519+00:00
+[2023-12-16T12:21:35.858+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-12-16T12:22:34.686+0500] {processor.py:157} INFO - Started process (PID=5921) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:22:34.690+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:22:34.691+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:22:34.691+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:22:34.696+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:22:34.710+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:22:34.710+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:22:34.727+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:22:34.727+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:22:34.727226+00:00, run_after=2023-12-16T07:22:34.727226+00:00
+[2023-12-16T12:22:34.751+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2023-12-16T12:23:28.080+0500] {processor.py:157} INFO - Started process (PID=5993) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:23:28.088+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:23:28.089+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:23:28.089+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:23:28.096+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:23:28.114+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:23:28.114+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:23:28.141+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:23:28.141+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:23:28.140773+00:00, run_after=2023-12-16T07:23:28.140773+00:00
+[2023-12-16T12:23:28.193+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.117 seconds
+[2023-12-16T12:25:02.215+0500] {processor.py:157} INFO - Started process (PID=6111) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:25:02.220+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:25:02.222+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:25:02.222+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:25:02.234+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:25:02.251+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:25:02.251+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:25:02.274+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:25:02.274+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:25:02.274564+00:00, run_after=2023-12-16T07:25:02.274564+00:00
+[2023-12-16T12:25:02.306+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2023-12-16T12:26:07.421+0500] {processor.py:157} INFO - Started process (PID=6207) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:26:07.434+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:26:07.436+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:26:07.435+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:26:07.447+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:26:07.474+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:26:07.474+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:26:07.502+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:26:07.502+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:26:07.501741+00:00, run_after=2023-12-16T07:26:07.501741+00:00
+[2023-12-16T12:26:07.561+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.146 seconds
+[2023-12-16T12:26:58.519+0500] {processor.py:157} INFO - Started process (PID=6272) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:26:58.534+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:26:58.535+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:26:58.535+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:26:58.542+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:26:58.557+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:26:58.557+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:26:58.576+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:26:58.576+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:26:58.576548+00:00, run_after=2023-12-16T07:26:58.576548+00:00
+[2023-12-16T12:26:58.605+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-12-16T12:27:46.765+0500] {processor.py:157} INFO - Started process (PID=6326) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:27:46.769+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:27:46.770+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:27:46.770+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:27:46.781+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:27:46.805+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:27:46.805+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:27:46.833+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:27:46.832+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:27:46.832146+00:00, run_after=2023-12-16T07:27:46.832146+00:00
+[2023-12-16T12:27:46.868+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.108 seconds
+[2023-12-16T12:28:29.659+0500] {processor.py:157} INFO - Started process (PID=6374) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:28:29.664+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:28:29.665+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:28:29.665+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:28:29.671+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:28:29.686+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:28:29.686+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:28:29.702+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:28:29.702+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:28:29.702310+00:00, run_after=2023-12-16T07:28:29.702310+00:00
+[2023-12-16T12:28:29.729+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2023-12-16T12:29:25.814+0500] {processor.py:157} INFO - Started process (PID=6463) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:29:25.815+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:29:25.816+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:29:25.815+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:29:25.822+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:29:25.840+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:29:25.840+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:29:25.860+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:29:25.859+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:29:25.859728+00:00, run_after=2023-12-16T07:29:25.859728+00:00
+[2023-12-16T12:29:25.887+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-12-16T12:30:22.636+0500] {processor.py:157} INFO - Started process (PID=6534) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:30:22.646+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:30:22.647+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:30:22.647+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:30:22.653+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:30:22.667+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:30:22.666+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:30:22.684+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:30:22.684+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:30:22.684330+00:00, run_after=2023-12-16T07:30:22.684330+00:00
+[2023-12-16T12:30:22.711+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-12-16T12:31:21.407+0500] {processor.py:157} INFO - Started process (PID=6604) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:31:21.416+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:31:21.417+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:31:21.417+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:31:21.422+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:31:21.441+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:31:21.441+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:31:21.468+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:31:21.468+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:31:21.468243+00:00, run_after=2023-12-16T07:31:21.468243+00:00
+[2023-12-16T12:31:21.501+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2023-12-16T12:32:16.124+0500] {processor.py:157} INFO - Started process (PID=6685) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:32:16.126+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:32:16.127+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:32:16.126+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:32:16.132+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:32:16.147+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:32:16.147+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:32:16.165+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:32:16.165+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:32:16.164897+00:00, run_after=2023-12-16T07:32:16.164897+00:00
+[2023-12-16T12:32:16.192+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.071 seconds
+[2023-12-16T12:33:05.851+0500] {processor.py:157} INFO - Started process (PID=6781) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:33:05.856+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:33:05.856+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:33:05.856+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:33:05.861+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:33:05.875+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:33:05.875+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:33:05.893+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:33:05.893+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:33:05.893420+00:00, run_after=2023-12-16T07:33:05.893420+00:00
+[2023-12-16T12:33:05.923+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T12:33:53.745+0500] {processor.py:157} INFO - Started process (PID=6833) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:33:53.747+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:33:53.748+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:33:53.748+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:33:53.753+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:33:53.767+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:33:53.767+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:33:53.783+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:33:53.783+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:33:53.783082+00:00, run_after=2023-12-16T07:33:53.783082+00:00
+[2023-12-16T12:33:53.808+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2023-12-16T12:34:44.870+0500] {processor.py:157} INFO - Started process (PID=6886) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:34:44.881+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:34:44.882+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:34:44.881+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:34:44.887+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:34:44.901+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:34:44.901+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:34:44.924+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:34:44.924+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:34:44.924243+00:00, run_after=2023-12-16T07:34:44.924243+00:00
+[2023-12-16T12:34:44.952+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.085 seconds
+[2023-12-16T12:35:40.174+0500] {processor.py:157} INFO - Started process (PID=6940) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:35:40.177+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:35:40.178+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:35:40.178+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:35:40.185+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:35:40.202+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:35:40.201+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:35:40.221+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:35:40.221+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:35:40.220977+00:00, run_after=2023-12-16T07:35:40.220977+00:00
+[2023-12-16T12:35:40.248+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-12-16T12:36:31.596+0500] {processor.py:157} INFO - Started process (PID=6991) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:36:31.611+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:36:31.611+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:36:31.611+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:36:31.617+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:36:31.630+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:36:31.630+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:36:31.647+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:36:31.647+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:36:31.646961+00:00, run_after=2023-12-16T07:36:31.646961+00:00
+[2023-12-16T12:36:31.673+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-12-16T12:37:26.593+0500] {processor.py:157} INFO - Started process (PID=7052) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:37:26.597+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:37:26.598+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:37:26.598+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:37:26.605+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:37:26.625+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:37:26.625+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:37:26.648+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:37:26.648+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:37:26.647940+00:00, run_after=2023-12-16T07:37:26.647940+00:00
+[2023-12-16T12:37:26.681+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.093 seconds
+[2023-12-16T12:38:25.873+0500] {processor.py:157} INFO - Started process (PID=7126) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:38:25.886+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:38:25.886+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:38:25.886+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:38:25.893+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:38:25.915+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:38:25.915+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:38:25.946+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:38:25.946+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:38:25.945220+00:00, run_after=2023-12-16T07:38:25.945220+00:00
+[2023-12-16T12:38:26.043+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.173 seconds
+[2023-12-16T12:39:24.372+0500] {processor.py:157} INFO - Started process (PID=7195) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:39:24.376+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:39:24.377+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:39:24.377+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:39:24.382+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:39:24.395+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:39:24.395+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:39:24.410+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:39:24.410+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:39:24.410051+00:00, run_after=2023-12-16T07:39:24.410051+00:00
+[2023-12-16T12:39:24.438+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-12-16T12:40:07.166+0500] {processor.py:157} INFO - Started process (PID=7243) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:40:07.177+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:40:07.179+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:40:07.178+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:40:07.188+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:40:07.207+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:40:07.207+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:40:07.242+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:40:07.241+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:40:07.241669+00:00, run_after=2023-12-16T07:40:07.241669+00:00
+[2023-12-16T12:40:07.287+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.125 seconds
+[2023-12-16T12:40:48.680+0500] {processor.py:157} INFO - Started process (PID=7296) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:40:48.689+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:40:48.690+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:40:48.690+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:40:48.697+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:40:48.711+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:40:48.711+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:40:48.727+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:40:48.727+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:40:48.727152+00:00, run_after=2023-12-16T07:40:48.727152+00:00
+[2023-12-16T12:40:48.754+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T12:41:38.096+0500] {processor.py:157} INFO - Started process (PID=7355) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:41:38.221+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:41:38.222+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:41:38.222+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:41:38.232+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:41:38.255+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:41:38.255+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:41:38.292+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:41:38.291+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:41:38.291272+00:00, run_after=2023-12-16T07:41:38.291272+00:00
+[2023-12-16T12:41:38.394+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.302 seconds
+[2023-12-16T12:42:19.236+0500] {processor.py:157} INFO - Started process (PID=7400) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:42:19.238+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:42:19.238+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:42:19.238+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:42:19.244+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:42:19.259+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:42:19.259+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:42:19.277+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:42:19.277+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:42:19.276907+00:00, run_after=2023-12-16T07:42:19.276907+00:00
+[2023-12-16T12:42:19.304+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.071 seconds
+[2023-12-16T12:43:01.434+0500] {processor.py:157} INFO - Started process (PID=7447) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:43:01.442+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:43:01.443+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:43:01.442+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:43:01.447+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:43:01.460+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:43:01.460+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:43:01.477+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:43:01.477+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:43:01.477459+00:00, run_after=2023-12-16T07:43:01.477459+00:00
+[2023-12-16T12:43:01.501+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-12-16T12:43:44.104+0500] {processor.py:157} INFO - Started process (PID=7501) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:43:44.117+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:43:44.118+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:43:44.118+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:43:44.124+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:43:44.143+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:43:44.142+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:43:44.160+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:43:44.160+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:43:44.159980+00:00, run_after=2023-12-16T07:43:44.159980+00:00
+[2023-12-16T12:43:44.188+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-12-16T12:45:10.705+0500] {processor.py:157} INFO - Started process (PID=7625) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:45:10.710+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:45:10.711+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:45:10.711+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:45:10.721+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:45:10.739+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:45:10.739+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:45:10.760+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:45:10.759+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:45:10.759615+00:00, run_after=2023-12-16T07:45:10.759615+00:00
+[2023-12-16T12:45:10.790+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-12-16T12:46:01.597+0500] {processor.py:157} INFO - Started process (PID=7704) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:46:01.598+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:46:01.599+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:46:01.599+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:46:01.604+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:46:01.617+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:46:01.617+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:46:01.632+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:46:01.632+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:46:01.632444+00:00, run_after=2023-12-16T07:46:01.632444+00:00
+[2023-12-16T12:46:01.658+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds
+[2023-12-16T12:46:52.614+0500] {processor.py:157} INFO - Started process (PID=7775) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:46:52.631+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:46:52.631+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:46:52.631+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:46:52.637+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:46:52.653+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:46:52.653+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:46:52.671+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:46:52.670+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:46:52.669956+00:00, run_after=2023-12-16T07:46:52.669956+00:00
+[2023-12-16T12:46:52.701+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.093 seconds
+[2023-12-16T12:47:35.567+0500] {processor.py:157} INFO - Started process (PID=7827) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:47:35.572+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:47:35.573+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:47:35.573+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:47:35.578+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:47:35.592+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:47:35.592+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:47:35.610+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:47:35.610+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:47:35.610072+00:00, run_after=2023-12-16T07:47:35.610072+00:00
+[2023-12-16T12:47:35.638+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2023-12-16T12:48:35.585+0500] {processor.py:157} INFO - Started process (PID=7914) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:48:35.586+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:48:35.587+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:48:35.587+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:48:35.592+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:48:35.606+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:48:35.606+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:48:35.621+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:48:35.621+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:48:35.620817+00:00, run_after=2023-12-16T07:48:35.620817+00:00
+[2023-12-16T12:48:35.643+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.061 seconds
+[2023-12-16T12:49:16.378+0500] {processor.py:157} INFO - Started process (PID=7967) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:49:16.383+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:49:16.384+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:49:16.383+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:49:16.389+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:49:16.410+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:49:16.409+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:49:16.431+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:49:16.431+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:49:16.431012+00:00, run_after=2023-12-16T07:49:16.431012+00:00
+[2023-12-16T12:49:16.466+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2023-12-16T12:50:10.894+0500] {processor.py:157} INFO - Started process (PID=8033) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:50:10.909+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:50:10.910+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:50:10.910+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:50:10.916+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:50:10.932+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:50:10.932+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:50:10.955+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:50:10.955+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:50:10.955326+00:00, run_after=2023-12-16T07:50:10.955326+00:00
+[2023-12-16T12:50:10.996+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.105 seconds
+[2023-12-16T12:51:05.596+0500] {processor.py:157} INFO - Started process (PID=8101) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:51:05.601+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:51:05.602+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:51:05.601+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:51:05.608+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:51:05.623+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:51:05.623+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:51:05.644+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:51:05.644+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:51:05.644423+00:00, run_after=2023-12-16T07:51:05.644423+00:00
+[2023-12-16T12:51:05.672+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-12-16T12:51:53.009+0500] {processor.py:157} INFO - Started process (PID=8177) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:51:53.019+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:51:53.020+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:51:53.020+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:51:53.025+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:51:53.043+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:51:53.043+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:51:53.058+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:51:53.058+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:51:53.058504+00:00, run_after=2023-12-16T07:51:53.058504+00:00
+[2023-12-16T12:51:53.081+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-12-16T12:52:47.652+0500] {processor.py:157} INFO - Started process (PID=8247) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:52:47.662+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:52:47.663+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:52:47.663+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:52:47.669+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:52:47.683+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:52:47.683+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:52:47.700+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:52:47.700+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:52:47.700273+00:00, run_after=2023-12-16T07:52:47.700273+00:00
+[2023-12-16T12:52:47.723+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2023-12-16T12:53:39.097+0500] {processor.py:157} INFO - Started process (PID=8314) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:53:39.100+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:53:39.101+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:53:39.100+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:53:39.109+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:53:39.134+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:53:39.134+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:53:39.163+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:53:39.163+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:53:39.163512+00:00, run_after=2023-12-16T07:53:39.163512+00:00
+[2023-12-16T12:53:39.219+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.128 seconds
+[2023-12-16T12:54:38.825+0500] {processor.py:157} INFO - Started process (PID=8398) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:54:38.834+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:54:38.837+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:54:38.836+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:54:38.848+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:54:38.872+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:54:38.871+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:54:38.913+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:54:38.910+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:54:38.909802+00:00, run_after=2023-12-16T07:54:38.909802+00:00
+[2023-12-16T12:54:38.967+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.146 seconds
+[2023-12-16T12:55:31.324+0500] {processor.py:157} INFO - Started process (PID=8465) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:55:31.332+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:55:31.333+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:55:31.333+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:55:31.338+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:55:31.351+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:55:31.351+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:55:31.366+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:55:31.366+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:55:31.366436+00:00, run_after=2023-12-16T07:55:31.366436+00:00
+[2023-12-16T12:55:31.390+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-12-16T12:56:23.092+0500] {processor.py:157} INFO - Started process (PID=8523) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:56:23.104+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:56:23.105+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:56:23.104+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:56:23.110+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:56:23.124+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:56:23.124+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:56:23.143+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:56:23.143+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:56:23.142880+00:00, run_after=2023-12-16T07:56:23.142880+00:00
+[2023-12-16T12:56:23.169+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-12-16T12:57:19.190+0500] {processor.py:157} INFO - Started process (PID=8592) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:57:19.204+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:57:19.205+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:57:19.204+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:57:19.209+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:57:19.222+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:57:19.222+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:57:19.237+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:57:19.237+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:57:19.237071+00:00, run_after=2023-12-16T07:57:19.237071+00:00
+[2023-12-16T12:57:19.260+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.072 seconds
+[2023-12-16T12:58:09.425+0500] {processor.py:157} INFO - Started process (PID=8646) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:58:09.429+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:58:09.430+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:58:09.429+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:58:09.437+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:58:09.455+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:58:09.455+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:58:09.477+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:58:09.477+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:58:09.476955+00:00, run_after=2023-12-16T07:58:09.476955+00:00
+[2023-12-16T12:58:09.514+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2023-12-16T12:59:07.922+0500] {processor.py:157} INFO - Started process (PID=8709) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:59:07.923+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:59:07.924+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:59:07.924+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:59:07.935+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:59:07.976+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:59:07.976+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:59:08.012+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:59:08.012+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:59:08.012210+00:00, run_after=2023-12-16T07:59:08.012210+00:00
+[2023-12-16T12:59:08.076+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.161 seconds
+[2023-12-16T12:59:51.456+0500] {processor.py:157} INFO - Started process (PID=8755) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:59:51.464+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T12:59:51.465+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:59:51.465+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:59:51.470+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T12:59:51.483+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:59:51.483+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T12:59:51.499+0500] {logging_mixin.py:154} INFO - [2023-12-16T12:59:51.499+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T03:59:51.498861+00:00, run_after=2023-12-16T07:59:51.498861+00:00
+[2023-12-16T12:59:51.523+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2023-12-16T13:00:48.132+0500] {processor.py:157} INFO - Started process (PID=8813) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:00:48.144+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:00:48.145+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:00:48.144+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:00:48.150+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:00:48.165+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:00:48.165+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:00:48.182+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:00:48.182+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:00:48.181898+00:00, run_after=2023-12-16T08:00:48.181898+00:00
+[2023-12-16T13:00:48.211+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-12-16T13:01:41.831+0500] {processor.py:157} INFO - Started process (PID=8864) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:01:41.833+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:01:41.834+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:01:41.834+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:01:41.842+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:01:41.863+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:01:41.863+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:01:41.886+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:01:41.886+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:01:41.885694+00:00, run_after=2023-12-16T08:01:41.885694+00:00
+[2023-12-16T13:01:41.943+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2023-12-16T13:02:33.738+0500] {processor.py:157} INFO - Started process (PID=8926) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:02:33.751+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:02:33.752+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:02:33.752+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:02:33.758+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:02:33.782+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:02:33.781+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:02:33.804+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:02:33.804+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:02:33.803712+00:00, run_after=2023-12-16T08:02:33.803712+00:00
+[2023-12-16T13:02:33.858+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.124 seconds
+[2023-12-16T13:03:18.125+0500] {processor.py:157} INFO - Started process (PID=8967) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:03:18.140+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:03:18.142+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:03:18.141+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:03:18.148+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:03:18.170+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:03:18.170+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:03:18.195+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:03:18.195+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:03:18.195177+00:00, run_after=2023-12-16T08:03:18.195177+00:00
+[2023-12-16T13:03:18.227+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.106 seconds
+[2023-12-16T13:04:03.996+0500] {processor.py:157} INFO - Started process (PID=9011) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:04:04.013+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:04:04.014+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:04:04.014+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:04:04.028+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:04:04.050+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:04:04.050+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:04:04.081+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:04:04.081+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:04:04.081440+00:00, run_after=2023-12-16T08:04:04.081440+00:00
+[2023-12-16T13:04:04.113+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.126 seconds
+[2023-12-16T13:04:47.495+0500] {processor.py:157} INFO - Started process (PID=9050) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:04:47.503+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:04:47.504+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:04:47.504+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:04:47.515+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:04:47.548+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:04:47.548+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:04:47.581+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:04:47.580+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:04:47.580344+00:00, run_after=2023-12-16T08:04:47.580344+00:00
+[2023-12-16T13:04:47.614+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.124 seconds
+[2023-12-16T13:05:44.698+0500] {processor.py:157} INFO - Started process (PID=9106) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:05:44.723+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:05:44.724+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:05:44.723+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:05:44.729+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:05:44.744+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:05:44.743+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:05:44.760+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:05:44.760+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:05:44.760099+00:00, run_after=2023-12-16T08:05:44.760099+00:00
+[2023-12-16T13:05:44.786+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.090 seconds
+[2023-12-16T13:06:44.943+0500] {processor.py:157} INFO - Started process (PID=9166) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:06:44.957+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:06:44.958+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:06:44.958+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:06:44.967+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:06:44.988+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:06:44.988+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:06:45.015+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:06:45.015+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:06:45.014800+00:00, run_after=2023-12-16T08:06:45.014800+00:00
+[2023-12-16T13:06:45.072+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.132 seconds
+[2023-12-16T13:07:29.106+0500] {processor.py:157} INFO - Started process (PID=9213) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:07:29.134+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:07:29.138+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:07:29.136+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:07:29.154+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:07:29.202+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:07:29.201+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:07:29.238+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:07:29.238+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:07:29.237733+00:00, run_after=2023-12-16T08:07:29.237733+00:00
+[2023-12-16T13:07:29.307+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.217 seconds
+[2023-12-16T13:08:16.383+0500] {processor.py:157} INFO - Started process (PID=9264) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:08:16.390+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:08:16.391+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:08:16.391+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:08:16.398+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:08:16.420+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:08:16.419+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:08:16.446+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:08:16.445+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:08:16.445383+00:00, run_after=2023-12-16T08:08:16.445383+00:00
+[2023-12-16T13:08:16.501+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.121 seconds
+[2023-12-16T13:09:10.721+0500] {processor.py:157} INFO - Started process (PID=9323) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:09:10.722+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:09:10.723+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:09:10.723+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:09:10.728+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:09:10.742+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:09:10.742+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:09:10.760+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:09:10.759+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:09:10.759522+00:00, run_after=2023-12-16T08:09:10.759522+00:00
+[2023-12-16T13:09:10.786+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2023-12-16T13:10:01.414+0500] {processor.py:157} INFO - Started process (PID=9374) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:10:01.426+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:10:01.427+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:10:01.427+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:10:01.433+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:10:01.447+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:10:01.446+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:10:01.464+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:10:01.463+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:10:01.463632+00:00, run_after=2023-12-16T08:10:01.463632+00:00
+[2023-12-16T13:10:01.628+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.217 seconds
+[2023-12-16T13:10:51.276+0500] {processor.py:157} INFO - Started process (PID=9426) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:10:51.290+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:10:51.291+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:10:51.291+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:10:51.297+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:10:51.312+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:10:51.312+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:10:51.330+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:10:51.330+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:10:51.330370+00:00, run_after=2023-12-16T08:10:51.330370+00:00
+[2023-12-16T13:10:51.357+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.085 seconds
+[2023-12-16T13:11:46.346+0500] {processor.py:157} INFO - Started process (PID=9484) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:11:46.350+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:11:46.351+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:11:46.350+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:11:46.356+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:11:46.375+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:11:46.375+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:11:46.393+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:11:46.393+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:11:46.393521+00:00, run_after=2023-12-16T08:11:46.393521+00:00
+[2023-12-16T13:11:46.423+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2023-12-16T13:12:34.600+0500] {processor.py:157} INFO - Started process (PID=9539) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:12:34.604+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:12:34.606+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:12:34.605+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:12:34.612+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:12:34.635+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:12:34.634+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:12:34.668+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:12:34.667+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:12:34.667135+00:00, run_after=2023-12-16T08:12:34.667135+00:00
+[2023-12-16T13:12:34.707+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2023-12-16T13:13:23.567+0500] {processor.py:157} INFO - Started process (PID=9594) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:13:23.577+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:13:23.578+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:13:23.578+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:13:23.585+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:13:23.612+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:13:23.611+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:13:23.636+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:13:23.636+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:13:23.636013+00:00, run_after=2023-12-16T08:13:23.636013+00:00
+[2023-12-16T13:13:23.677+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.114 seconds
+[2023-12-16T13:14:06.709+0500] {processor.py:157} INFO - Started process (PID=9638) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:14:06.785+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:14:06.786+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:14:06.785+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:14:06.793+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:14:06.814+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:14:06.813+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:14:06.836+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:14:06.836+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:14:06.835858+00:00, run_after=2023-12-16T08:14:06.835858+00:00
+[2023-12-16T13:14:06.888+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.184 seconds
+[2023-12-16T13:15:14.763+0500] {processor.py:157} INFO - Started process (PID=9704) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:15:14.770+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:15:14.771+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:15:14.771+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:15:14.782+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:15:14.805+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:15:14.804+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:15:14.831+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:15:14.831+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:15:14.830724+00:00, run_after=2023-12-16T08:15:14.830724+00:00
+[2023-12-16T13:15:14.884+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.127 seconds
+[2023-12-16T13:16:01.393+0500] {processor.py:157} INFO - Started process (PID=9751) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:16:01.402+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:16:01.402+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:16:01.402+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:16:01.408+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:16:01.420+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:16:01.420+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:16:01.437+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:16:01.437+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:16:01.436957+00:00, run_after=2023-12-16T08:16:01.436957+00:00
+[2023-12-16T13:16:01.463+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds
+[2023-12-16T13:16:59.705+0500] {processor.py:157} INFO - Started process (PID=9813) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:16:59.716+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:16:59.717+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:16:59.716+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:16:59.722+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:16:59.736+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:16:59.736+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:16:59.754+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:16:59.754+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:16:59.753926+00:00, run_after=2023-12-16T08:16:59.753926+00:00
+[2023-12-16T13:16:59.794+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2023-12-16T13:18:01.106+0500] {processor.py:157} INFO - Started process (PID=9877) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:18:01.120+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:18:01.121+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:18:01.121+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:18:01.128+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:18:01.145+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:18:01.145+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:18:01.163+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:18:01.163+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:18:01.163185+00:00, run_after=2023-12-16T08:18:01.163185+00:00
+[2023-12-16T13:18:01.192+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-12-16T13:18:50.122+0500] {processor.py:157} INFO - Started process (PID=9928) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:18:50.127+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:18:50.129+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:18:50.127+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:18:50.136+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:18:50.154+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:18:50.154+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:18:50.176+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:18:50.175+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:18:50.175552+00:00, run_after=2023-12-16T08:18:50.175552+00:00
+[2023-12-16T13:18:50.206+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2023-12-16T13:19:34.337+0500] {processor.py:157} INFO - Started process (PID=9975) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:19:34.343+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:19:34.344+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:19:34.344+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:19:34.350+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:19:34.364+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:19:34.364+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:19:34.385+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:19:34.384+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:19:34.384258+00:00, run_after=2023-12-16T08:19:34.384258+00:00
+[2023-12-16T13:19:34.408+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.075 seconds
+[2023-12-16T13:20:33.563+0500] {processor.py:157} INFO - Started process (PID=10040) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:20:33.575+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:20:33.576+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:20:33.576+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:20:33.581+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:20:33.594+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:20:33.594+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:20:33.608+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:20:33.608+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:20:33.608201+00:00, run_after=2023-12-16T08:20:33.608201+00:00
+[2023-12-16T13:20:33.768+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.208 seconds
+[2023-12-16T13:21:15.517+0500] {processor.py:157} INFO - Started process (PID=10081) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:21:15.532+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:21:15.533+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:21:15.532+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:21:15.544+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:21:15.571+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:21:15.571+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:21:15.603+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:21:15.603+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:21:15.603238+00:00, run_after=2023-12-16T08:21:15.603238+00:00
+[2023-12-16T13:21:15.696+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.185 seconds
+[2023-12-16T13:22:14.899+0500] {processor.py:157} INFO - Started process (PID=10145) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:22:14.903+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:22:14.904+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:22:14.904+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:22:14.911+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:22:14.929+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:22:14.928+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:22:14.968+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:22:14.967+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:22:14.967426+00:00, run_after=2023-12-16T08:22:14.967426+00:00
+[2023-12-16T13:22:15.000+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.105 seconds
+[2023-12-16T13:23:06.296+0500] {processor.py:157} INFO - Started process (PID=10198) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:23:06.304+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:23:06.305+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:23:06.304+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:23:06.311+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:23:06.327+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:23:06.327+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:23:06.344+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:23:06.344+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:23:06.344443+00:00, run_after=2023-12-16T08:23:06.344443+00:00
+[2023-12-16T13:23:06.371+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-12-16T13:23:56.942+0500] {processor.py:157} INFO - Started process (PID=10251) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:23:56.951+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:23:56.952+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:23:56.951+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:23:56.959+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:23:56.975+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:23:56.974+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:23:56.992+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:23:56.991+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:23:56.991725+00:00, run_after=2023-12-16T08:23:56.991725+00:00
+[2023-12-16T13:23:57.016+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-12-16T13:24:49.231+0500] {processor.py:157} INFO - Started process (PID=10329) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:24:49.232+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:24:49.233+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:24:49.232+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:24:49.238+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:24:49.255+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:24:49.255+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:24:49.272+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:24:49.271+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:24:49.271734+00:00, run_after=2023-12-16T08:24:49.271734+00:00
+[2023-12-16T13:24:49.297+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-12-16T13:25:42.374+0500] {processor.py:157} INFO - Started process (PID=10408) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:25:42.392+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:25:42.393+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:25:42.393+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:25:42.410+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:25:42.436+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:25:42.436+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:25:42.453+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:25:42.453+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:25:42.453320+00:00, run_after=2023-12-16T08:25:42.453320+00:00
+[2023-12-16T13:25:42.478+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.106 seconds
+[2023-12-16T13:26:34.948+0500] {processor.py:157} INFO - Started process (PID=10502) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:26:34.949+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:26:34.950+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:26:34.950+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:26:34.955+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:26:34.969+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:26:34.969+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:26:34.986+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:26:34.986+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:26:34.985835+00:00, run_after=2023-12-16T08:26:34.985835+00:00
+[2023-12-16T13:26:35.016+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.071 seconds
+[2023-12-16T13:27:24.004+0500] {processor.py:157} INFO - Started process (PID=10566) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:27:24.008+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:27:24.009+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:27:24.008+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:27:24.013+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:27:24.027+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:27:24.027+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:27:24.043+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:27:24.043+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:27:24.042751+00:00, run_after=2023-12-16T08:27:24.042751+00:00
+[2023-12-16T13:27:24.068+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.067 seconds
+[2023-12-16T13:28:20.280+0500] {processor.py:157} INFO - Started process (PID=10621) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:28:20.315+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:28:20.316+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:28:20.316+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:28:20.322+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:28:20.336+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:28:20.336+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:28:20.353+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:28:20.353+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:28:20.353361+00:00, run_after=2023-12-16T08:28:20.353361+00:00
+[2023-12-16T13:28:20.377+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.100 seconds
+[2023-12-16T13:29:18.604+0500] {processor.py:157} INFO - Started process (PID=10911) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:29:18.605+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:29:18.607+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:29:18.606+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:29:18.627+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:29:18.690+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:29:18.690+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:29:18.741+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:29:18.740+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:29:18.740146+00:00, run_after=2023-12-16T08:29:18.740146+00:00
+[2023-12-16T13:29:18.822+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.223 seconds
+[2023-12-16T13:29:59.434+0500] {processor.py:157} INFO - Started process (PID=11173) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:29:59.435+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:29:59.436+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:29:59.435+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:29:59.441+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:29:59.455+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:29:59.454+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:29:59.471+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:29:59.471+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:29:59.471261+00:00, run_after=2023-12-16T08:29:59.471261+00:00
+[2023-12-16T13:29:59.497+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2023-12-16T13:30:52.770+0500] {processor.py:157} INFO - Started process (PID=11444) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:30:52.777+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:30:52.780+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:30:52.779+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:30:52.789+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:30:52.819+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:30:52.819+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:30:52.856+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:30:52.856+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:30:52.855072+00:00, run_after=2023-12-16T08:30:52.855072+00:00
+[2023-12-16T13:30:52.921+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.157 seconds
+[2023-12-16T13:31:50.913+0500] {processor.py:157} INFO - Started process (PID=11778) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:31:50.923+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:31:50.924+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:31:50.924+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:31:50.929+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:31:50.944+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:31:50.944+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:31:50.963+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:31:50.963+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:31:50.963379+00:00, run_after=2023-12-16T08:31:50.963379+00:00
+[2023-12-16T13:31:50.997+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-12-16T13:32:45.411+0500] {processor.py:157} INFO - Started process (PID=12030) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:32:45.422+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:32:45.423+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:32:45.422+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:32:45.428+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:32:45.444+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:32:45.444+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:32:45.463+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:32:45.463+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:32:45.463253+00:00, run_after=2023-12-16T08:32:45.463253+00:00
+[2023-12-16T13:32:45.490+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-12-16T13:33:34.607+0500] {processor.py:157} INFO - Started process (PID=12346) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:33:34.608+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:33:34.610+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:33:34.609+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:33:34.615+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:33:34.628+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:33:34.628+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:33:34.644+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:33:34.644+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:33:34.644555+00:00, run_after=2023-12-16T08:33:34.644555+00:00
+[2023-12-16T13:33:34.667+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds
+[2023-12-16T13:34:23.632+0500] {processor.py:157} INFO - Started process (PID=12611) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:34:23.635+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:34:23.636+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:34:23.636+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:34:23.642+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:34:23.658+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:34:23.658+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:34:23.676+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:34:23.675+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:34:23.675495+00:00, run_after=2023-12-16T08:34:23.675495+00:00
+[2023-12-16T13:34:23.703+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.075 seconds
+[2023-12-16T13:35:19.013+0500] {processor.py:157} INFO - Started process (PID=12854) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:35:19.022+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:35:19.023+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:35:19.022+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:35:19.030+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:35:19.045+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:35:19.044+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:35:19.063+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:35:19.063+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:35:19.063202+00:00, run_after=2023-12-16T08:35:19.063202+00:00
+[2023-12-16T13:35:19.087+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-12-16T13:36:08.398+0500] {processor.py:157} INFO - Started process (PID=13192) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:36:08.409+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:36:08.410+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:36:08.410+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:36:08.417+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:36:08.433+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:36:08.433+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:36:08.450+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:36:08.450+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:36:08.450337+00:00, run_after=2023-12-16T08:36:08.450337+00:00
+[2023-12-16T13:36:08.477+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-12-16T13:37:03.390+0500] {processor.py:157} INFO - Started process (PID=13408) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:37:03.403+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-12-16T13:37:03.404+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:37:03.404+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:37:03.410+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-12-16T13:37:03.423+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:37:03.423+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T13:37:03.439+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:37:03.439+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-12-16T04:37:03.438841+00:00, run_after=2023-12-16T08:37:03.438841+00:00
+[2023-12-16T13:37:03.464+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds

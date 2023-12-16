@@ -1,0 +1,20 @@
+[2023-12-16T12:45:30.287+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_dvc_dag.transform manual__2023-12-15T00:00:00+00:00 [queued]>
+[2023-12-16T12:45:30.299+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_dvc_dag.transform manual__2023-12-15T00:00:00+00:00 [queued]>
+[2023-12-16T12:45:30.299+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-16T12:45:30.324+0500] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): transform> on 2023-12-15 00:00:00+00:00
+[2023-12-16T12:45:30.327+0500] {standard_task_runner.py:57} INFO - Started process 7657 to run task
+[2023-12-16T12:45:30.331+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_dvc_dag', 'transform', 'manual__2023-12-15T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpxwhxb5ir']
+[2023-12-16T12:45:30.331+0500] {standard_task_runner.py:85} INFO - Job 6: Subtask transform
+[2023-12-16T12:45:30.393+0500] {task_command.py:416} INFO - Running <TaskInstance: etl_dvc_dag.transform manual__2023-12-15T00:00:00+00:00 [running]> on host DESKTOP-32G5QSE.
+[2023-12-16T12:45:30.464+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_dvc_dag' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2023-12-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-15T00:00:00+00:00'
+[2023-12-16T12:45:30.465+0500] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/sourav/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/sourav/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: transform_data() missing 1 required positional argument: 'data'
+[2023-12-16T12:45:30.469+0500] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_dvc_dag, task_id=transform, execution_date=20231215T000000, start_date=20231216T074530, end_date=20231216T074530
+[2023-12-16T12:45:30.510+0500] {standard_task_runner.py:104} ERROR - Failed to execute job 6 for task transform (transform_data() missing 1 required positional argument: 'data'; 7657)
+[2023-12-16T12:45:30.543+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-16T12:45:30.564+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

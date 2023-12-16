@@ -1,0 +1,28 @@
+[2023-12-16T13:01:12.740+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_json_dag.transform manual__2023-12-16T07:58:42.094998+00:00 [queued]>
+[2023-12-16T13:01:12.749+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_json_dag.transform manual__2023-12-16T07:58:42.094998+00:00 [queued]>
+[2023-12-16T13:01:12.750+0500] {taskinstance.py:1361} INFO - Starting attempt 2 of 3
+[2023-12-16T13:01:12.806+0500] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): transform> on 2023-12-16 07:58:42.094998+00:00
+[2023-12-16T13:01:12.808+0500] {standard_task_runner.py:57} INFO - Started process 8837 to run task
+[2023-12-16T13:01:12.812+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_json_dag', 'transform', 'manual__2023-12-16T07:58:42.094998+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpg2mdqmh8']
+[2023-12-16T13:01:12.813+0500] {standard_task_runner.py:85} INFO - Job 9: Subtask transform
+[2023-12-16T13:01:12.864+0500] {task_command.py:416} INFO - Running <TaskInstance: etl_json_dag.transform manual__2023-12-16T07:58:42.094998+00:00 [running]> on host DESKTOP-32G5QSE.
+[2023-12-16T13:01:12.958+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_json_dag' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T07:58:42.094998+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-16T07:58:42.094998+00:00'
+[2023-12-16T13:01:12.959+0500] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/sourav/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/sourav/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/sourav/airflow/dags/etl_dag.py", line 18, in transform_data
+    data_dict = json.loads(data)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[2023-12-16T13:01:12.966+0500] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_json_dag, task_id=transform, execution_date=20231216T075842, start_date=20231216T080112, end_date=20231216T080112
+[2023-12-16T13:01:13.008+0500] {standard_task_runner.py:104} ERROR - Failed to execute job 9 for task transform (Expecting property name enclosed in double quotes: line 1 column 2 (char 1); 8837)
+[2023-12-16T13:01:13.024+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-16T13:01:13.051+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
