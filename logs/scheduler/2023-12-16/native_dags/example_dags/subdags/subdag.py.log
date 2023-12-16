@@ -1218,3 +1218,13 @@
 [2023-12-16T15:18:25.438+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:18:25.438+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2023-12-16T15:18:25.441+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2023-12-16T15:18:25.455+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.026 seconds
+[2023-12-16T15:19:19.208+0500] {processor.py:157} INFO - Started process (PID=43383) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-12-16T15:19:19.211+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-12-16T15:19:19.212+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:19:19.212+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-12-16T15:19:19.214+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-12-16T15:19:19.222+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2023-12-16T15:20:10.386+0500] {processor.py:157} INFO - Started process (PID=43643) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-12-16T15:20:10.392+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-12-16T15:20:10.393+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:20:10.392+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-12-16T15:20:10.395+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-12-16T15:20:10.411+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.029 seconds

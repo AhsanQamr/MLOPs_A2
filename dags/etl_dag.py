@@ -95,7 +95,6 @@ git_push = BashOperator(
     bash_command='cd /home/sourav/airflow && git push origin new',
     dag=dag,
 )
-ssh-keygen
 
 # Set task dependencies
 
