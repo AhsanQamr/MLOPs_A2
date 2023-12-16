@@ -1,0 +1,19 @@
+[2023-12-16T15:37:26.561+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_json_dag.git_push manual__2023-12-16T10:34:40.539736+00:00 [queued]>
+[2023-12-16T15:37:26.566+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_json_dag.git_push manual__2023-12-16T10:34:40.539736+00:00 [queued]>
+[2023-12-16T15:37:26.566+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-16T15:37:26.585+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): git_push> on 2023-12-16 10:34:40.539736+00:00
+[2023-12-16T15:37:26.588+0500] {standard_task_runner.py:57} INFO - Started process 48104 to run task
+[2023-12-16T15:37:26.591+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_json_dag', 'git_push', 'manual__2023-12-16T10:34:40.539736+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpss_chu73']
+[2023-12-16T15:37:26.592+0500] {standard_task_runner.py:85} INFO - Job 83: Subtask git_push
+[2023-12-16T15:37:26.632+0500] {task_command.py:416} INFO - Running <TaskInstance: etl_json_dag.git_push manual__2023-12-16T10:34:40.539736+00:00 [running]> on host DESKTOP-32G5QSE.
+[2023-12-16T15:37:26.691+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_json_dag' AIRFLOW_CTX_TASK_ID='git_push' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T10:34:40.539736+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-16T10:34:40.539736+00:00'
+[2023-12-16T15:37:26.695+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-16T15:37:26.696+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'ssh-agent bash -c "ssh-add /home/sourav/airflow/var; cd /home/sourav/airflow && git push origin new"']
+[2023-12-16T15:37:26.700+0500] {subprocess.py:86} INFO - Output:
+[2023-12-16T15:37:26.723+0500] {subprocess.py:93} INFO - Identity added: /home/sourav/airflow/var (sourav@DESKTOP-32G5QSE)
+[2023-12-16T15:37:30.900+0500] {subprocess.py:93} INFO - To github.com:AhsanQamr/MLOPs_A2.git
+[2023-12-16T15:37:30.900+0500] {subprocess.py:93} INFO -    334b7a9..d3ba119  new -> new
+[2023-12-16T15:37:30.901+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-16T15:37:30.936+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_json_dag, task_id=git_push, execution_date=20231216T103440, start_date=20231216T103726, end_date=20231216T103730
+[2023-12-16T15:37:30.967+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T15:37:30.978+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
