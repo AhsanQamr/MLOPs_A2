@@ -1647,3 +1647,45 @@
 [2023-12-16T15:13:25.803+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:13:25.802+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T15:13:25.821+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:13:25.820+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
 [2023-12-16T15:13:25.846+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.098 seconds
+[2023-12-16T15:14:23.584+0500] {processor.py:157} INFO - Started process (PID=42043) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:14:23.591+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-12-16T15:14:23.592+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:14:23.592+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:14:23.604+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:14:23.629+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:14:23.629+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:14:23.650+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:14:23.650+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:14:23.682+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.101 seconds
+[2023-12-16T15:15:17.429+0500] {processor.py:157} INFO - Started process (PID=42252) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:15:17.436+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-12-16T15:15:17.437+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:15:17.437+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:15:17.450+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:15:17.472+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:15:17.472+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:15:17.490+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:15:17.490+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:15:17.515+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.089 seconds
+[2023-12-16T15:16:08.374+0500] {processor.py:157} INFO - Started process (PID=42453) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:16:08.385+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-12-16T15:16:08.386+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:16:08.386+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:16:08.397+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:16:08.421+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:16:08.420+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:16:08.443+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:16:08.443+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:16:08.475+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.103 seconds
+[2023-12-16T15:17:05.591+0500] {processor.py:157} INFO - Started process (PID=42689) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:17:05.594+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-12-16T15:17:05.595+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:17:05.594+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:17:05.605+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:17:05.624+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:17:05.623+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:17:05.640+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:17:05.640+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:17:05.663+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.076 seconds
+[2023-12-16T15:17:55.474+0500] {processor.py:157} INFO - Started process (PID=42884) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:17:55.515+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-12-16T15:17:55.516+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:17:55.516+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:17:55.532+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:17:55.559+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:17:55.559+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:17:55.577+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:17:55.577+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:17:55.608+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.137 seconds
+[2023-12-16T15:18:49.698+0500] {processor.py:157} INFO - Started process (PID=43150) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:18:49.707+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-12-16T15:18:49.708+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:18:49.707+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:18:49.717+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-12-16T15:18:49.735+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:18:49.735+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:18:49.752+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:18:49.752+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:18:49.780+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.085 seconds

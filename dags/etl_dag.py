@@ -92,10 +92,10 @@ dvc_push = BashOperator(
 
 git_push = BashOperator(
     task_id='git_push',
-    bash_command='cd /home/sourav/airflow && git push',
+    bash_command='cd /home/sourav/airflow && git push origin new',
     dag=dag,
 )
-
+ssh-keygen
 
 # Set task dependencies
 
