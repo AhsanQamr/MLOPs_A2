@@ -784,3 +784,27 @@
 [2023-12-16T13:36:30.625+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:36:30.625+0500] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
 [2023-12-16T13:36:30.625+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
 [2023-12-16T13:36:30.634+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2023-12-16T13:37:26.309+0500] {processor.py:157} INFO - Started process (PID=13614) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:37:26.323+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-12-16T13:37:26.324+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:37:26.324+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:37:26.327+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:37:26.327+0500] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-12-16T13:37:26.328+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:37:26.336+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2023-12-16T13:38:15.265+0500] {processor.py:157} INFO - Started process (PID=14089) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:38:15.272+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-12-16T13:38:15.273+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:38:15.273+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:38:15.276+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:38:15.276+0500] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-12-16T13:38:15.276+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:38:15.284+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2023-12-16T13:39:03.557+0500] {processor.py:157} INFO - Started process (PID=14501) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:39:03.563+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-12-16T13:39:03.563+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:39:03.563+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:39:03.567+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:39:03.566+0500] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-12-16T13:39:03.567+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:39:03.576+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2023-12-16T13:39:53.844+0500] {processor.py:157} INFO - Started process (PID=14863) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:39:53.846+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-12-16T13:39:53.847+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:39:53.846+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:39:53.850+0500] {logging_mixin.py:154} INFO - [2023-12-16T13:39:53.850+0500] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-12-16T13:39:53.850+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-12-16T13:39:53.860+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
