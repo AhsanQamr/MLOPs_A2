@@ -1724,3 +1724,59 @@
 [2023-12-16T15:21:05.188+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:21:05.188+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T15:21:05.206+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:21:05.206+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
 [2023-12-16T15:21:05.233+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2023-12-16T15:22:13.570+0500] {processor.py:157} INFO - Started process (PID=44299) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:22:13.579+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-12-16T15:22:13.580+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:22:13.579+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:22:13.588+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:22:13.603+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:22:13.603+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:22:13.620+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:22:13.620+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:22:13.647+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2023-12-16T15:23:05.004+0500] {processor.py:157} INFO - Started process (PID=44500) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:23:05.016+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-12-16T15:23:05.017+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:23:05.017+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:23:05.025+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:23:05.040+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:23:05.039+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:23:05.055+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:23:05.055+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:23:05.078+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.077 seconds
+[2023-12-16T15:23:53.498+0500] {processor.py:157} INFO - Started process (PID=44713) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:23:53.510+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-12-16T15:23:53.510+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:23:53.510+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:23:53.518+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:23:53.532+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:23:53.532+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:23:53.548+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:23:53.548+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:23:53.571+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.077 seconds
+[2023-12-16T15:24:47.917+0500] {processor.py:157} INFO - Started process (PID=44989) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:24:47.919+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-12-16T15:24:47.920+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:24:47.919+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:24:47.931+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:24:47.949+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:24:47.949+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:24:47.972+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:24:47.972+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:24:48.028+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.113 seconds
+[2023-12-16T15:25:43.325+0500] {processor.py:157} INFO - Started process (PID=45208) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:25:43.328+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-12-16T15:25:43.329+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:25:43.329+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:25:43.338+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:25:43.355+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:25:43.355+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:25:43.376+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:25:43.375+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:25:43.404+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2023-12-16T15:26:43.258+0500] {processor.py:157} INFO - Started process (PID=45465) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:26:43.267+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-12-16T15:26:43.268+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:26:43.267+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:26:43.277+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:26:43.293+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:26:43.293+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:26:43.312+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:26:43.311+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:26:43.336+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2023-12-16T15:27:51.133+0500] {processor.py:157} INFO - Started process (PID=45733) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:27:51.146+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-12-16T15:27:51.146+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:27:51.146+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:27:51.155+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:27:51.171+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:27:51.171+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:27:51.192+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:27:51.192+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:27:51.227+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.097 seconds
+[2023-12-16T15:28:41.178+0500] {processor.py:157} INFO - Started process (PID=45928) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:28:41.193+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-12-16T15:28:41.194+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:28:41.194+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:28:41.202+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-12-16T15:28:41.217+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:28:41.216+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:28:41.232+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:28:41.232+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T15:28:41.259+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.084 seconds

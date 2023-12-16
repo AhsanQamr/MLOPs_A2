@@ -20,7 +20,7 @@ import logging
 
 def transform_data(data):
     data_dict = json.loads(data)  # Deserialize the JSON string into a dictionary
-    data_dict['new_field'] = 'example_value'
+    data_dict['new_field'] = 'testValue'
     return json.dumps(data_dict)  # Serialize it back into a string to pass to the next task
 
 
@@ -92,7 +92,7 @@ dvc_push = BashOperator(
 
 git_push = BashOperator(
     task_id='git_push',
-    bash_command='cd /home/sourav/airflow && git push origin new',
+    bash_command='ssh-agent bash -c "ssh-add /home/sourav/airflow/var; cd /home/sourav/airflow && git push origin new"',
     dag=dag,
 )
 
