@@ -2750,3 +2750,10 @@ NameError: name 'dvc_commit' is not defined. Did you mean: 'git_commit'?
 [2023-12-16T14:50:15.525+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:50:15.525+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T14:50:15.540+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:50:15.540+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
 [2023-12-16T14:50:15.565+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.082 seconds
+[2023-12-16T14:50:52.173+0500] {processor.py:157} INFO - Started process (PID=34886) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:50:52.178+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T14:50:52.179+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:50:52.179+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:50:52.186+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T14:50:52.203+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:50:52.203+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:50:52.242+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:50:52.242+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T14:50:52.300+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.129 seconds
