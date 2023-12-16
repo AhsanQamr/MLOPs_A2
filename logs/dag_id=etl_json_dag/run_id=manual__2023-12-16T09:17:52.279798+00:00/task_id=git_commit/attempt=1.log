@@ -1,0 +1,12 @@
+[2023-12-16T14:18:05.864+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_json_dag.git_commit manual__2023-12-16T09:17:52.279798+00:00 [queued]>
+[2023-12-16T14:18:05.869+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_json_dag.git_commit manual__2023-12-16T09:17:52.279798+00:00 [queued]>
+[2023-12-16T14:18:05.869+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-16T14:18:05.889+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): git_commit> on 2023-12-16 09:17:52.279798+00:00
+[2023-12-16T14:18:05.891+0500] {standard_task_runner.py:57} INFO - Started process 24705 to run task
+[2023-12-16T14:18:05.894+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_json_dag', 'git_commit', 'manual__2023-12-16T09:17:52.279798+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmps_fkdli4']
+[2023-12-16T14:18:05.894+0500] {standard_task_runner.py:85} INFO - Job 47: Subtask git_commit
+[2023-12-16T14:18:05.932+0500] {task_command.py:416} INFO - Running <TaskInstance: etl_json_dag.git_commit manual__2023-12-16T09:17:52.279798+00:00 [running]> on host DESKTOP-32G5QSE.
+[2023-12-16T14:18:05.990+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_json_dag' AIRFLOW_CTX_TASK_ID='git_commit' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T09:17:52.279798+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-16T09:17:52.279798+00:00'
+[2023-12-16T14:18:05.995+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-16T14:18:05.996+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/sourav/airflow && git add . && git commit -m "Update data file"']
+[2023-12-16T14:18:06.000+0500] {subprocess.py:86} INFO - Output:

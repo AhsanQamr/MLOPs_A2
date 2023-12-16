@@ -1213,3 +1213,24 @@
 [2023-12-16T14:14:44.431+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:14:44.431+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T14:14:44.449+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:14:44.449+0500] {dag.py:3722} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
 [2023-12-16T14:14:44.474+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.078 seconds
+[2023-12-16T14:15:59.861+0500] {processor.py:157} INFO - Started process (PID=24104) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:15:59.883+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-12-16T14:15:59.884+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:15:59.884+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:15:59.903+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:15:59.955+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:15:59.954+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:16:00.009+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:16:00.009+0500] {dag.py:3722} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T14:16:00.095+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.238 seconds
+[2023-12-16T14:16:50.456+0500] {processor.py:157} INFO - Started process (PID=24310) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:16:50.468+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-12-16T14:16:50.469+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:16:50.469+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:16:50.476+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:16:50.492+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:16:50.492+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:16:50.510+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:16:50.510+0500] {dag.py:3722} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T14:16:50.540+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.088 seconds
+[2023-12-16T14:17:49.189+0500] {processor.py:157} INFO - Started process (PID=24626) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:17:49.327+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-12-16T14:17:49.328+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:17:49.328+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:17:49.337+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-12-16T14:17:49.353+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:17:49.352+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T14:17:49.371+0500] {logging_mixin.py:154} INFO - [2023-12-16T14:17:49.371+0500] {dag.py:3722} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-12-15T00:00:00+00:00, run_after=2023-12-16T00:00:00+00:00
+[2023-12-16T14:17:49.395+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.209 seconds
