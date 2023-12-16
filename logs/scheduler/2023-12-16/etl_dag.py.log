@@ -3295,3 +3295,10 @@ SyntaxError: keyword argument repeated: bash_command
 [2023-12-16T15:29:15.383+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:29:15.383+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T15:29:15.401+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:29:15.400+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
 [2023-12-16T15:29:15.423+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.080 seconds
+[2023-12-16T15:37:07.445+0500] {processor.py:157} INFO - Started process (PID=47905) to work on /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T15:37:07.447+0500] {processor.py:829} INFO - Processing file /home/sourav/airflow/dags/etl_dag.py for tasks to queue
+[2023-12-16T15:37:07.448+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:37:07.448+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T15:37:07.467+0500] {processor.py:839} INFO - DAG(s) dict_keys(['etl_json_dag']) retrieved from /home/sourav/airflow/dags/etl_dag.py
+[2023-12-16T15:37:07.489+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:37:07.489+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:37:07.507+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:37:07.507+0500] {dag.py:3722} INFO - Setting next_dagrun for etl_json_dag to 2023-12-16T00:00:00+00:00, run_after=2023-12-17T00:00:00+00:00
+[2023-12-16T15:37:07.560+0500] {processor.py:179} INFO - Processing /home/sourav/airflow/dags/etl_dag.py took 0.119 seconds

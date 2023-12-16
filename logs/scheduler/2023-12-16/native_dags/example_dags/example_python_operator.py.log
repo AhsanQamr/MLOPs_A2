@@ -2930,3 +2930,11 @@
 [2023-12-16T15:29:00.037+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:29:00.037+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T15:29:00.048+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:29:00.048+0500] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2023-12-16T15:29:00.098+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.210 seconds
+[2023-12-16T15:37:19.117+0500] {processor.py:157} INFO - Started process (PID=48027) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-12-16T15:37:19.119+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-12-16T15:37:19.119+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:37:19.119+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-12-16T15:37:19.243+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:37:19.243+0500] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-12-16T15:37:19.246+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-12-16T15:37:19.267+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:37:19.267+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:37:19.278+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:37:19.278+0500] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-12-16T15:37:19.483+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.369 seconds

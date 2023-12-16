@@ -1,0 +1,24 @@
+[2023-12-16T15:37:17.723+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_json_dag.dvc_add manual__2023-12-16T10:34:40.539736+00:00 [queued]>
+[2023-12-16T15:37:17.729+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_json_dag.dvc_add manual__2023-12-16T10:34:40.539736+00:00 [queued]>
+[2023-12-16T15:37:17.729+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-12-16T15:37:17.748+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): dvc_add> on 2023-12-16 10:34:40.539736+00:00
+[2023-12-16T15:37:17.750+0500] {standard_task_runner.py:57} INFO - Started process 47995 to run task
+[2023-12-16T15:37:17.753+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_json_dag', 'dvc_add', 'manual__2023-12-16T10:34:40.539736+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpgsoyyt2i']
+[2023-12-16T15:37:17.753+0500] {standard_task_runner.py:85} INFO - Job 80: Subtask dvc_add
+[2023-12-16T15:37:17.790+0500] {task_command.py:416} INFO - Running <TaskInstance: etl_json_dag.dvc_add manual__2023-12-16T10:34:40.539736+00:00 [running]> on host DESKTOP-32G5QSE.
+[2023-12-16T15:37:17.851+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_json_dag' AIRFLOW_CTX_TASK_ID='dvc_add' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T10:34:40.539736+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-16T10:34:40.539736+00:00'
+[2023-12-16T15:37:17.856+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-16T15:37:17.857+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/sourav/airflow && dvc add transformed_data.json']
+[2023-12-16T15:37:17.862+0500] {subprocess.py:86} INFO - Output:
+[2023-12-16T15:37:18.469+0500] {subprocess.py:93} INFO - 
+[2023-12-16T15:37:18.469+0500] {subprocess.py:93} INFO - To track the changes with git, run:
+[2023-12-16T15:37:18.470+0500] {subprocess.py:93} INFO - 
+[2023-12-16T15:37:18.470+0500] {subprocess.py:93} INFO - 	git add transformed_data.json.dvc
+[2023-12-16T15:37:18.470+0500] {subprocess.py:93} INFO - 
+[2023-12-16T15:37:18.470+0500] {subprocess.py:93} INFO - To enable auto staging, run:
+[2023-12-16T15:37:18.470+0500] {subprocess.py:93} INFO - 
+[2023-12-16T15:37:18.470+0500] {subprocess.py:93} INFO - 	dvc config core.autostage true
+[2023-12-16T15:37:18.648+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-16T15:37:18.670+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_json_dag, task_id=dvc_add, execution_date=20231216T103440, start_date=20231216T103717, end_date=20231216T103718
+[2023-12-16T15:37:18.729+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T15:37:18.749+0500] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
