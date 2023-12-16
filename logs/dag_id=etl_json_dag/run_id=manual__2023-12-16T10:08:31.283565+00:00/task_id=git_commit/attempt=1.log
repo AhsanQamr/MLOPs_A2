@@ -10,3 +10,14 @@
 [2023-12-16T15:08:46.721+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
 [2023-12-16T15:08:46.721+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/sourav/airflow && git add . && git commit -m "Update data file"']
 [2023-12-16T15:08:46.726+0500] {subprocess.py:86} INFO - Output:
+[2023-12-16T15:08:47.497+0500] {subprocess.py:93} INFO - [new 7fb2d51] Update data file
+[2023-12-16T15:08:47.497+0500] {subprocess.py:93} INFO -  55 files changed, 831 insertions(+), 1 deletion(-)
+[2023-12-16T15:08:47.497+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T10:08:31.283565+00:00/task_id=dvc_add/attempt=1.log
+[2023-12-16T15:08:47.497+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T10:08:31.283565+00:00/task_id=extract/attempt=1.log
+[2023-12-16T15:08:47.497+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T10:08:31.283565+00:00/task_id=git_commit/attempt=1.log
+[2023-12-16T15:08:47.497+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T10:08:31.283565+00:00/task_id=load/attempt=1.log
+[2023-12-16T15:08:47.497+0500] {subprocess.py:93} INFO -  create mode 100644 logs/dag_id=etl_json_dag/run_id=manual__2023-12-16T10:08:31.283565+00:00/task_id=transform/attempt=1.log
+[2023-12-16T15:08:47.497+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-16T15:08:47.547+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_json_dag, task_id=git_commit, execution_date=20231216T100831, start_date=20231216T100846, end_date=20231216T100847
+[2023-12-16T15:08:47.599+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-16T15:08:47.617+0500] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
