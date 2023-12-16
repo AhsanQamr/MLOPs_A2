@@ -1983,3 +1983,24 @@
 [2023-12-16T15:52:31.977+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:52:31.977+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T15:52:31.989+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:52:31.988+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2023-12-16T15:52:32.018+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.079 seconds
+[2023-12-16T15:53:34.375+0500] {processor.py:157} INFO - Started process (PID=53248) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:53:34.377+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-12-16T15:53:34.377+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:53:34.377+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:53:34.382+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:53:34.397+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:53:34.397+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:53:34.409+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:53:34.408+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-12-16T15:53:34.435+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2023-12-16T15:54:28.814+0500] {processor.py:157} INFO - Started process (PID=53458) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:54:28.815+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-12-16T15:54:28.816+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:54:28.816+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:54:28.821+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:54:28.835+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:54:28.834+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:54:28.844+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:54:28.844+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-12-16T15:54:28.869+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2023-12-16T15:55:17.731+0500] {processor.py:157} INFO - Started process (PID=53649) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:55:17.739+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-12-16T15:55:17.740+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:55:17.740+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:55:17.746+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-16T15:55:17.762+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:55:17.762+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:55:17.774+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:55:17.774+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-12-16T15:55:17.803+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.075 seconds
