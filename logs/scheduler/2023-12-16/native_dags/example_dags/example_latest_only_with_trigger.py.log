@@ -1815,3 +1815,24 @@
 [2023-12-16T15:04:34.086+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:04:34.086+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-16T15:04:34.103+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:04:34.103+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-12-16T06:04:34.103240+00:00, run_after=2023-12-16T10:04:34.103240+00:00
 [2023-12-16T15:04:34.129+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.212 seconds
+[2023-12-16T15:05:23.469+0500] {processor.py:157} INFO - Started process (PID=39097) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:05:23.610+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-12-16T15:05:23.611+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:05:23.611+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:05:23.617+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:05:23.631+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:05:23.630+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:05:23.646+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:05:23.646+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-12-16T06:05:23.645693+00:00, run_after=2023-12-16T10:05:23.645693+00:00
+[2023-12-16T15:05:23.671+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.206 seconds
+[2023-12-16T15:06:13.644+0500] {processor.py:157} INFO - Started process (PID=39404) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:06:13.785+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-12-16T15:06:13.786+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:06:13.786+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:06:13.792+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:06:13.806+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:06:13.806+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:06:13.829+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:06:13.829+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-12-16T06:06:13.829242+00:00, run_after=2023-12-16T10:06:13.829242+00:00
+[2023-12-16T15:06:13.856+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.217 seconds
+[2023-12-16T15:06:58.465+0500] {processor.py:157} INFO - Started process (PID=39721) to work on /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:06:58.472+0500] {processor.py:829} INFO - Processing file /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-12-16T15:06:58.473+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:06:58.473+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:06:58.482+0500] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-12-16T15:06:58.499+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:06:58.498+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-16T15:06:58.516+0500] {logging_mixin.py:154} INFO - [2023-12-16T15:06:58.516+0500] {dag.py:3722} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-12-16T06:06:58.516393+00:00, run_after=2023-12-16T10:06:58.516393+00:00
+[2023-12-16T15:06:58.542+0500] {processor.py:179} INFO - Processing /home/sourav/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.081 seconds
